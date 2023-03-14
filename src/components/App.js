@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './../styles/App.css';
+import 'regenerator-runtime/runtime'
 
 function App() {
   const [items, setItems] = useState([]);
